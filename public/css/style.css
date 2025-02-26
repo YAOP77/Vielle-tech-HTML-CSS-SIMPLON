@@ -59,7 +59,7 @@ header .container-header .menu li a:hover {
 /* Section 1 */
 .section-1 {
     padding: 230px;
-    background-image: url("/public/images/d-4-blanc-vert.jpg");
+    background-image: url("../images/d-4-blanc-vert.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -116,7 +116,7 @@ header .container-header .menu li a:hover {
 /* Section 3 */
 .section-3 {
     padding: 70px;
-    background-image: url("/public/images/d-3-blanc-vert.jpg");
+    background-image: url("../images/d-3-blanc-vert.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
