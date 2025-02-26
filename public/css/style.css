@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    /* text-decoration: none; */
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif ;
+}
+
+/* L'entête de la page */
+header {
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    background-color: #0a0a0a;
+    /* backdrop-filter: blur(70px); */
+    z-index: 10;
+}
+
+/* Logo */
+header .container-header div .logo {
+    color: #fff;
+    font-size: 1.4em;
+    text-decoration: none;
+}
+
+/* container-header */
+header .container-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Menu li du header */
+header .container-header .menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    position: relative;
+    right: 40px;
+}
+
+/* Lien du menu */
+header .container-header .menu li a {
+    font-size: 1em;
+    color: #fff;
+    transition: 0.7s;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header .container-header .menu li a:hover {
+    color: #4ee790;
+}
+
+/* Corps de la page */
+
+/* Section 1 */
+.section-1 {
+    padding: 230px;
+    background-image: url("/public/images/d-4-blanc-vert.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.section-1 h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 2.9em;
+    animation: vielle 5s linear;
+}
+
+@keyframes vielle {
+    0% {
+        opacity: 0;
+    }
+
+    60% {
+        opacity: 70;
+    }
+
+    100% {
+        opacity: 100;
+    }
+}
+
+/* Section 2 */
+.section-2 {
+    padding: 30px;
+    background-color: #fff;
+    /* border: 1px solid red; */
+}
+
+/* h2 de la section 2 */
+.section-2 h2 {
+    color: #0f8642;
+    padding: 20px;
+    font-size: 2.4em;
+    text-align: center;
+}
+
+.section-2 p {
+    padding: 20px;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.section-2 .span-techno {
+    color: #0f8642;
+    font-weight: bold;
+}
+
+/* Section 3 */
+.section-3 {
+    padding: 70px;
+    background-image: url("/public/images/d-3-blanc-vert.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* h2 de la section 3 */
+.section-3 h2 {
+    text-align: center;
+    padding-bottom: 50px;
+    color: #fff;
+    font-size: 2.4em;
+}
+
+.section-3 h5 {
+    padding-top: 15px;
+    text-align: center;
+    padding-bottom: 50px;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+/* conteneur pour regrouper les div de la section 3 */
+.section-3 .container-section-3 {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+}
+
+/* h5 de la section 3 */
+.section-3 h5 {
+    color: #43ff95;
+    padding-top: 50px;
+}
+
+/* h3 de la section 3 */
+.section-3 .container-section-3 h3 {
+    text-align: center;
+    position: relative;
+    right: 30px;
+    position: relative;
+    padding-bottom: 30px;
+    color: #dde74e;
+}
+
+/* images des ressource de la section-3 */
+.section-3 .container-section-3 img {
+    padding: 20px;
+    height: 150px;
+    width: 167px;
+    position: relative;
+    right: 39px;
+    object-fit: cover;
+    transition: 0.7s;
+    background-color: #fff;
+    box-shadow: 7px 7px 7px rgb(46, 46, 46);
+    /* border-radius: 30%; */
+}
+
+.section-3 .container-section-3 img:hover {
+    transform: scale(1.1);
+}
+
+/* section 4 */
+.section-4 {
+    padding: 40px;
+    background-color: #fff;
+}
+
+/* h2 section 4 */
+.section-4 h2 {
+    color: #0f8642;
+    padding: 20px;
+    font-size: 2.4em;
+    text-align: center;
+}
+
+/* class d'un h2 de la section 4 */
+.section-4 .h2-section-4 {
+    color: #ffffff;
+    padding: 20px;
+    font-size: 2.4em;
+    text-align: center;
+}
+
+/* conteneur div de la section 4 */
+.section-4 .container-section-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* class du nom groupe-c dans la section 4 */
+.section-4 .container-section-4 .g-c {
+    padding: 20px;
+    border-radius: 0 0 0 30px;
+    background: rgb(23,23,23);
+    background: linear-gradient(107deg, rgba(23,23,23,1) 78%, rgba(60,162,64,1) 100%);
+    transition: 2s;
+}
+
+.section-4 .container-section-4 .g-c:hover {
+    /* transform: scale(1.1); */
+    background: #0f8642;
+    background: linear-gradient(107deg, rgb(44, 121, 46) 78%, rgb(2, 2, 2) 100%);
+}
+
+/* span pour le C dela section 4 */
+.section-4 .container-section-4 span {
+    color: #0f8642;
+}
+
+/* paragraphe de la section 4 */
+.section-4 p {
+    padding: 20px;
+    font-size: 1.1em;
+    text-align: center;
+    width: 650px;
+    font-size: 1.2em;
+    /* border: 1px solid #0f8642; */
+}
+
+/* footer */
+footer {
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    background-color: #000;
+    justify-content: space-between;
+}
+
+/* conteneur du footer */
+footer .container-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+/* h4 du footer */
+footer .container-footer h4 {
+    color: #fff;
+}
+
+/* paragraphe du footer */
+footer .container-footer p {
+    color: #0f8642;
+}
+
+/* lien de menu li du footer */
+footer .container-footer .footer-menu li a {
+    color: #fff;
+    transition: 0.7s;
+}
+
+footer .container-footer .footer-menu li a:hover {
+    color: #0f8642;
+}
+
+/* deuxieme paragraphe du footer  */
+footer .div p {
+    color: #646464;
+    position: relative;
+    top: 90px;
+}
